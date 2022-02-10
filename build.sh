@@ -58,4 +58,4 @@ gcc ufdt_overlay_test_app.c util.c -I../../include -I../../sysdeps/include -lufd
 cp ufdt_apply_overlay ../../../../
 cd ../../../../
 rm -rf $WORK_DIR
-ls
+ls -lh
